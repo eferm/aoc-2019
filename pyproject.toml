@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aoc-2019"
+version = "0.1.0"
+description = "Advent of Code 2019"
+authors = ["Emanuel Ferm <emanuel@eferm.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

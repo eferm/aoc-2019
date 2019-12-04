@@ -9,6 +9,7 @@ license = "MIT"
 python = "^3.6"
 jupyter = "^1.0"
 ipynb = "^0.5.1"
+numpy = "^1.17"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"

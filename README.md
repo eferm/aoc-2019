@@ -1,5 +1,5 @@
 # aoc-2019
-Advent of Code 2019
+Solutions for [Advent of Code 2019](https://adventofcode.com/2019)
 
 ## how to edit on a mac
 1. have python 3 installed, e.g. `brew install pyenv`

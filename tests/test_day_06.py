@@ -1,6 +1,5 @@
 from ipynb.fs.defs.aoc.day_06 import (
-    edges, digraph, dfs, part_1,
-    bigraph, planet, bfs, part_2)
+    edges, digraph, dfs, part_1, bigraph, bfs, part_2)
 
 edges0 = """a)b
 b)c
@@ -61,12 +60,6 @@ def test_bigraph():
     assert bigraph(g) == \
         {'a': {'b'}, 'b': {'a', 'c', 'd'}, 'c': {'b'},
          'd': {'b', 'e'}, 'e': {'d'}}
-
-
-def test_planet():
-    g = bigraph(digraph(edges(edges2)))
-    assert planet(g, 'YOU') == 'K'
-    assert planet(g, 'SAN') == 'I'
 
 
 def test_bfs():

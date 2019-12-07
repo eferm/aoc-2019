@@ -10,6 +10,8 @@ python = "^3.6"
 jupyter = "^1.0"
 ipynb = "^0.5.1"
 numpy = "^1.17"
+networkx = "^2.4"
+sortedcontainers = "^2.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"

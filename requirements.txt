@@ -1,4 +1,6 @@
 ipynb==0.5.1
 jupyter==1.0.0
 numpy==1.17.4
+networkx==2.4
+sortedcontainers==2.1.0
 pytest==3.10.1

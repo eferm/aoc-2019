@@ -12,6 +12,7 @@ ipynb = "^0.5.1"
 numpy = "^1.17"
 networkx = "^2.4"
 sortedcontainers = "^2.1"
+requests = "^2.22"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"

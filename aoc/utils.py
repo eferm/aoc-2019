@@ -4,7 +4,7 @@ import requests
 
 SESSION = os.getenv("SESSION_AOC")
 
-INPUTS_DIR = os.path.join(os.path.dirname(__file__), "inputs")
+INPUTS_DIR = os.path.join(os.path.abspath(''), "inputs")
 
 
 def get_input(year, day):
